@@ -1,0 +1,602 @@
+header
+{
+  background: white;
+  height: 100%;
+
+}
+
+header ::after
+{
+  content: ' ';
+  display: table;
+  clear: both;
+  text-decoration: none;
+  position: fixed;
+
+}
+
+div
+{
+  max-width: 100%;
+
+
+}
+
+
+img
+{
+  image-rendering:auto;
+
+}
+
+
+body
+{
+
+  background: white;
+  width: 100%;
+
+
+}
+
+
+
+p
+{
+  font-family: 'haylard-micro', sans-serif ;
+  font-style: normal;
+  word-break:keep-all;
+
+}
+
+.container
+{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+
+
+
+}
+
+
+h1
+{
+  font-family: 'halyard-micro', sans-serif;
+
+  font-weight: 500;
+  padding-top: 50px;
+
+
+}
+
+
+h2,h3,h4,h5,h6
+{
+   font-family: 'halyard-micro', sans-serif;
+}
+
+nav
+{
+  background: white;
+
+
+
+
+}
+
+nav li
+{
+  font-family: 'halyard-micro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 30px;
+
+
+}
+
+
+
+nav ul
+{
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin-right: 70px;
+  min-width: 450px;
+}
+
+
+ul
+{
+  list-style: none;
+}
+
+
+.homeimage
+{
+  display: inline-block;
+
+  width: 30%;
+
+  max-width: 1000px;
+  min-width: 450px;
+  image-rendering: auto;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  padding-top: 300px;
+
+  padding-bottom: 300px;
+
+  background-color: black;
+  border-left: dotted white 1px;
+  border-right: dotted red 1px;
+  margin-left: 35%;
+
+
+
+
+
+}
+
+
+.jaja
+{
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+.homeheader2
+{
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 30px;
+  font-weight: 900;
+  display: inline;
+  letter-spacing: .2px;
+  width: 50%;
+  padding-top: 100px;
+  margin-top: 10px;
+}
+
+
+.homeparagraph
+{
+
+  font-family: 'halyard-micro', sans-serif;
+  font-style: oblique;
+  font-size: 15px;
+  width: 20%;
+  color: black;
+  text-align: justify;
+  margin-left: 40%;
+
+}
+
+footer
+{
+  padding-top: 40px;
+  text-align: center;
+}
+
+
+
+.footerparagraph
+{
+  font-family: 'halyard-micro', sans-serif;
+  font-style: bold;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.footeremail
+{
+  text-decoration: none;
+  font-size: 10px;
+  font-family: 'haylard-micro', sans-serif;
+  font-weight: 700;
+}
+
+.linktoinstagram
+{
+  margin-right: 30px;
+}
+
+
+
+.WorkMenu
+{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 7%;
+
+
+
+
+}
+
+
+.workphoto
+{
+
+
+  padding: 10px;
+
+}
+
+
+
+.videophoto
+{
+
+
+  padding: 10px;
+  letter-spacing: 1px;
+
+
+
+}
+
+.btsPhoto
+{
+
+
+  padding: 10px;
+  letter-spacing: 1px;
+
+
+}
+
+
+.WorkMenu .btsPhoto
+{
+opacity:0.5;
+transition: .5s ease;
+
+
+}
+
+.WorkMenu .btsPhoto:hover
+{
+opacity:1;
+transition: .5s ease;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.WorkMenu .videophoto
+{
+opacity:0.5;
+transition: .5s ease;
+}
+
+.WorkMenu .videophoto:hover
+{
+opacity:1;
+transition: .5s ease;
+background-color: rgba(0, 100, 200, 0.5);
+}
+
+
+
+.WorkMenu .workphoto
+{
+opacity:0.5;
+transition: .5s ease;
+}
+
+.WorkMenu .workphoto:hover
+{
+opacity:1;
+transition: .5s ease;
+background-color: rgba(142, 68, 173, 0.5);
+}
+
+
+
+
+
+.btsSpan
+{
+
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  margin-left: -200px;
+  letter-spacing: 10px;
+  color: white;
+  overflow: hidden;
+}
+
+
+
+
+
+.videoSpan
+{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  margin-left: -200px;
+  letter-spacing: 5px;
+  color:white;
+  overflow: hidden;
+
+}
+
+.photoSpan
+{
+
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  margin-left: -200px;
+  letter-spacing: 3px;
+  color:white;
+  overflow: hidden;
+
+}
+
+
+.WorkMenu .PhotoSelect.photoSpan:hover
+{ background-color: black;
+
+}
+
+
+span
+{
+   position: absolute;
+   padding: 10px;
+   bottom: -70px;
+   box-sizing: border-box;
+   background-color: rgba(0,0,0,0.5)
+   color: #fff;
+   margin: -160px;
+   margin-left: -180px;
+
+   min-width: 25%;
+
+}
+
+
+.photoCont
+{
+  height: 100%;
+  width: 20%;
+  margin: auto .2%;
+
+}
+
+
+.PhotoSelect
+{
+
+}
+
+.VideoSelect
+{
+
+
+}
+
+.BtsSelect
+{
+
+
+}
+
+
+.imageContainer
+{
+  height: 100%;
+  width: 100%;
+}
+
+.container
+{
+  width:100%;
+  height: auto;
+}
+
+
+
+.pgalleryheader
+{
+  font-size: 20px;
+}
+
+.pgalleryimages
+{
+  object-fit: cover;
+  border: solid black 5px;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+
+}
+
+
+.pgalleryimages2
+{
+    border: solid black 5px;
+
+
+}
+
+.pgalleryimages3
+{
+    border: solid black 5px;
+}
+
+
+.smoovel1bts
+{
+  image-orientation:
+}
+
+.aboutimage
+{
+
+  display: inline-block;
+  object-fit: cover;
+  image-rendering:auto;
+  image-rendering:crisp-edges;
+  margin-left: 5%;
+
+
+}
+
+.aboutHeader
+{
+
+}
+
+.aboutBio
+{
+
+  margin-left: 10%;
+  width: 30%;
+
+}
+
+.aboutCONTAIN
+{
+
+}
+
+
+.simo1
+{
+  -webkit-transform:rotate(180deg);
+}
+
+
+
+.SMOOVELMOVIE
+{
+  border: 5px solid black;
+}
+
+.SMOOVELMOVIE2
+{
+  border: 5px solid black;
+}
+.YOUNGMAMOVIE
+{
+  border: 5px solid black;
+}
+
+.JIPRINCEMOVIE
+{
+  border: 5px solid black;
+}
+
+.MESSIAHMOVIE
+{
+  border: 5px solid black;
+}
+
+
+
+.Simobts
+{
+
+
+  object-fit: cover;
+  border: solid black 5px;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+
+
+}
+
+.Youngmabts
+{
+  object-fit: cover;
+  border: solid black 5px;
+  image-rendering: auto;
+
+
+}
+
+.MESSIAHMOVIE
+{
+  object-fit: fill;
+}
+
+a:visited
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:link
+{
+  text-decoration: none;
+
+}
+
+
+a:hover
+{
+  text-decoration: none;
+
+}
+
+a:active
+{
+  text-decoration: none;
+}
+
+nav a
+{
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+
+nav a:hover
+{
+  color: #00000;
+  font-size: 17px;
+  font-weight: bold;
+  transition: all ease-in-out 200ms;
+  transition-delay: 50ms;
+
+
+}
+
+nav a::before
+{
+  content: '';
+  display:block;
+
+  height: 10px;
+  width: 5px;
+
+  position:absolute;
+
+  top:0;
+  width:0%;
+
+  transition: all ease-in-out 200ms;
+  transition-delay: 50ms;
+}
+
+.current
+{
+  font-weight: bold;
+
+}
