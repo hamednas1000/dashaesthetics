@@ -49,21 +49,48 @@ p
 
 }
 
-.container
+.titleContainer
 {
-  width: 100%;
-  background-color: white;
-  text-align: center;
-
-
+  display: flex;
+  justify-content: center;
+  margin: auto 4%;
 
 }
+
+.container
+{
+
+
+
+  width: 100%;
+
+  height: 100%;;
+
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.menuContainer
+{
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+}
+
+.menuItem
+{
+  margin: auto 3.9%;
+}
+
+
 
 
 h1
 {
   font-family: 'halyard-micro', sans-serif;
-
+  font-size: 2.0em;
   font-weight: 500;
   padding-top: 50px;
 
@@ -116,12 +143,11 @@ ul
 
 .homeimage
 {
-  display: inline-block;
+  display: flex;
 
   width: 30%;
 
-  max-width: 1000px;
-  min-width: 450px;
+
   image-rendering: auto;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
@@ -130,22 +156,16 @@ ul
   padding-bottom: 300px;
 
   background-color: black;
-  border-left: dotted white 1px;
-  border-right: dotted red 1px;
-  margin-left: 35%;
-
-
-
-
-
+  border-left: dotted black 1px;
+  border-right: dotted black 1px;
 }
-
 
 .jaja
 {
-  padding-top: 50px;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  width : 100%;
+  padding-top: 20px;
 }
 
 
@@ -155,13 +175,13 @@ ul
 {
   font-family: 'Montserrat', sans-serif;
 
-  font-size: 30px;
+  font-size: 2.5em;
   font-weight: 900;
   display: inline;
   letter-spacing: .2px;
   width: 50%;
-  padding-top: 100px;
-  margin-top: 10px;
+
+
 }
 
 
@@ -170,19 +190,23 @@ ul
 
   font-family: 'halyard-micro', sans-serif;
   font-style: oblique;
-  font-size: 15px;
-  width: 20%;
+  font-size: 0.9em;
   color: black;
-  text-align: justify;
-  margin-left: 40%;
 
-}
+  margin-top:1%;
 
-footer
-{
-  padding-top: 40px;
   text-align: center;
+
+  display:flex;
+  justify-content: center;
+  width: 20%;
+  min-width: 20%;
+
+
 }
+
+
+
 
 
 
@@ -202,9 +226,34 @@ footer
   font-weight: 700;
 }
 
-.linktoinstagram
+.instagramContainer
 {
-  margin-right: 30px;
+
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.EssayHOME
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.instaCenter
+{
+  
+  text-align: center;
+}
+
+.allRightsContainer
+{
+  display: flex;
+  justify-content: center;
+
 }
 
 
@@ -216,38 +265,27 @@ footer
   margin: 0 auto;
   padding-top: 7%;
 
-
-
-
 }
 
 
 .workphoto
 {
-
-
-  padding: 10px;
-
+  padding: 2px;
 }
 
 
 
 .videophoto
 {
-
-
-  padding: 10px;
+  padding: 2px;
   letter-spacing: 1px;
-
-
-
 }
 
 .btsPhoto
 {
 
 
-  padding: 10px;
+  padding: 2px;
   letter-spacing: 1px;
 
 
@@ -310,10 +348,20 @@ background-color: rgba(142, 68, 173, 0.5);
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 25px;
-  margin-left: -200px;
+
   letter-spacing: 10px;
   color: white;
-  overflow: hidden;
+
+
+  top: 50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ position: absolute;
+
+  text-align: center;
+
 }
 
 
@@ -326,10 +374,19 @@ background-color: rgba(142, 68, 173, 0.5);
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 25px;
-  margin-left: -200px;
+
   letter-spacing: 5px;
   color:white;
-  overflow: hidden;
+
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ position: absolute;
+
+  text-align: center;
 
 }
 
@@ -340,10 +397,23 @@ background-color: rgba(142, 68, 173, 0.5);
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 25px;
-  margin-left: -200px;
-  letter-spacing: 3px;
+
+  letter-spacing: 5px;
   color:white;
-  overflow: hidden;
+
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ position: absolute;
+
+  text-align: center;
+
+
+
+
 
 }
 
@@ -375,6 +445,7 @@ span
   height: 100%;
   width: 20%;
   margin: auto .2%;
+  position: relative;
 
 }
 
@@ -403,11 +474,13 @@ span
   width: 100%;
 }
 
-.container
+.VIDEO-CONTAINER
 {
-  width:100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
+
+
 
 
 
@@ -447,29 +520,45 @@ span
 .aboutimage
 {
 
-  display: inline-block;
-  object-fit: cover;
-  image-rendering:auto;
-  image-rendering:crisp-edges;
-  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+
+  border: solid black 5px;
+
+
 
 
 }
 
 .aboutHeader
 {
+  text-align: center;
+
 
 }
 
 .aboutBio
 {
+  display: flex;
+  font-family: 'haylard-micro', sans-serif ;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5vw;
+  letter-spacing: 2%;
+  position: relative;
+  word-wrap: normal;
+  word-break: keep-all;
+  width: 40%;
 
-  margin-left: 10%;
-  width: 30%;
 
 }
 
 .aboutCONTAIN
+{
+
+}
+
+.dashaboutContainer
 {
 
 }
@@ -534,6 +623,98 @@ span
   object-fit: fill;
 }
 
+
+
+
+input[type=text], select, textarea {
+  width: 20%;
+
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  box-sizing: border-box;
+
+
+
+
+}
+
+input[type=submit] {
+  background-color: #5DADE2;
+  color: white;
+
+  border: none;
+  border-radius: 4px;
+  width: 40%;
+}
+
+.contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+label{
+    display: block;
+    margin: 4%;
+    padding: 10%;
+
+
+}
+
+.email
+{
+  width: 100%;
+
+}
+
+.subject
+{
+  width: 100%;
+
+}
+
+.message
+{
+  width: 100%;
+}
+
+
+
+button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    width:100%;
+    height:auto;
+    color: white;
+    padding: 2% 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7vw;
+    cursor: pointer;
+}
+
+button:hover
+{
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+}
+
+.formContainer
+{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
 a:visited
 {
   text-decoration: none;
@@ -556,6 +737,12 @@ a:hover
 a:active
 {
   text-decoration: none;
+}
+
+a:before
+{
+  text-decoration: none;
+
 }
 
 nav a
