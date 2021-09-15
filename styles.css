@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 header
 {
   background: white;
@@ -145,6 +152,7 @@ ul
 {
   display: flex;
 
+
   width: 30%;
 
 
@@ -228,10 +236,11 @@ ul
 
 .instagramContainer
 {
-
-  padding-top: 2%;
+  width: 100%;
+  padding: 0;
   display: flex;
   justify-content: center;
+  background-color: black;
 
 
 }
@@ -245,8 +254,8 @@ ul
 
 .instaCenter
 {
-  
-  text-align: center;
+
+
 }
 
 .allRightsContainer
@@ -627,7 +636,7 @@ span
 
 
 input[type=text], select, textarea {
-  width: 20%;
+
 
   border: 1px solid #ccc;
   border-radius: 2%;
@@ -644,7 +653,7 @@ input[type=submit] {
 
   border: none;
   border-radius: 4px;
-  width: 40%;
+
 }
 
 .contact-me{
@@ -671,7 +680,7 @@ label{
 
 .subject
 {
-  width: 100%;
+  min-width: 100%;
 
 }
 
@@ -705,8 +714,25 @@ button:hover
 {
 
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.contactFooter
+{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 2%;
+
+}
+
+.rightsReserved
+{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 
