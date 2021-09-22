@@ -805,6 +805,19 @@ nav a::before
     flex-wrap: wrap;
     width: 50%;
   }
+  
+  
+  nav ul li
+  {
+    font-family: 'halyard-micro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 0;
+    display: flex;
+    list-style: none;
+    margin-right: 2%;
+
+  }
 
 }
 
