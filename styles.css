@@ -783,26 +783,21 @@ nav a::before
   font-weight: bold;
 }
 
-@media screen and (max-width: 600px)
+
+
+  @media screen (max-width: 480px) & (min-width:320px)
 {
 
 
   .homeimage
   {
-    display: flex;
-
-
-
     image-rendering: auto;
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
-    padding-top: 300px;
-
-    padding-bottom: 300px;
-
     background-color: black;
-    border-left: dotted black 1px;
-    border-right: dotted black 1px;
+    border: 2px solid black;
+    width: 20%;
   }
 
 }
+
+
+
