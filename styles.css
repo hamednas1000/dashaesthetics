@@ -794,7 +794,7 @@ nav a::before
     image-rendering: auto;
     background-color: black;
     border: 2px solid black;
-    max-width: 40px;
+    width: 10px;
 
   }
 
@@ -803,7 +803,7 @@ nav a::before
     display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 50%;
+    width: 20%;
   }
   
   
@@ -839,7 +839,7 @@ nav a::before
     font-family: 'haylard-micro', sans-serif ;
     font-style: normal;
     font-weight: 300;
-    font-size: 1.5vw;
+    font-size: 2.3vw;
     letter-spacing: 2%;
     position: relative;
     word-wrap: normal;
