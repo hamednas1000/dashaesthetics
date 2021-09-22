@@ -785,7 +785,7 @@ nav a::before
 
 
 
-  @media screen (max-width: 480px) & (min-width:320px)
+  @media screen and (max-width: 600px)
 {
 
 
