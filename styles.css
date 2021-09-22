@@ -794,6 +794,7 @@ nav a::before
     image-rendering: auto;
     background-color: black;
     border: 2px solid black;
+    max-width: 40px;
 
   }
 
