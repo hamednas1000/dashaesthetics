@@ -800,8 +800,8 @@ nav a::before
 
   .homeImagesContainer
   {
-    display: inline-block;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 20%;
   }
@@ -817,6 +817,7 @@ nav a::before
     text-align: center;
     list-style: none;
     margin-left: 2%;
+    width: 5%;
 
   }
   
