@@ -60,30 +60,23 @@ p
 {
   display: flex;
   justify-content: center;
-  margin: auto 4%;
+
 
 }
 
 .container
 {
-
-
-
   width: 100%;
-
   height: 100%;;
-
   background-color: white;
   text-align: center;
   text-decoration: none;
-
 }
 
 .menuContainer
 {
   display: flex;
   justify-content: center;
-  margin:0 auto;
 }
 
 .menuItem
@@ -101,7 +94,6 @@ h1
   font-weight: 500;
   padding-top: 50px;
 
-
 }
 
 
@@ -115,80 +107,69 @@ nav
   background: white;
 
 
-
-
 }
 
-nav li
+
+
+
+nav ul li
 {
   font-family: 'halyard-micro', sans-serif;
   font-style: normal;
   font-weight: 300;
-  display: inline-block;
-  margin-left: 30px;
-
-
-}
-
-
-
-nav ul
-{
-  display: inline-block;
+  padding-top: 0;
+  display: flex;
   list-style: none;
-  text-align: center;
-  margin-right: 70px;
-  min-width: 450px;
+
 }
 
 
 ul
 {
   list-style: none;
+
 }
 
 
-.homeimage
+.homeImagesContainer
 {
-  display: flex;
+  display:flex;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 
-  width: 30%;
-
+.homeImage
+{
 
   image-rendering: auto;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
-  padding-top: 300px;
-
-  padding-bottom: 300px;
-
   background-color: black;
-  border-left: dotted black 1px;
-  border-right: dotted black 1px;
+  border: 5px solid black;
 }
+
+
+
 
 .jaja
 {
   display: flex;
   justify-content: center;
-  width : 100%;
-  padding-top: 20px;
+  text-align: center;
 }
-
-
 
 
 .homeheader2
 {
   font-family: 'Montserrat', sans-serif;
-
   font-size: 2.5em;
   font-weight: 900;
-  display: inline;
   letter-spacing: .2px;
-  width: 50%;
-
+  text-align: center;
+  margin-bottom: 0;
 
 }
 
@@ -200,22 +181,21 @@ ul
   font-style: oblique;
   font-size: 0.9em;
   color: black;
-
-  margin-top:1%;
-
   text-align: center;
-
   display:flex;
   justify-content: center;
   width: 20%;
-  min-width: 20%;
-
-
 }
 
 
 
+.EssayHOMEContainer
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
 
+}
 
 
 .footerparagraph
@@ -245,12 +225,6 @@ ul
 
 }
 
-.EssayHOME
-{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
 
 .instaCenter
 {
@@ -477,11 +451,7 @@ span
 }
 
 
-.imageContainer
-{
-  height: 100%;
-  width: 100%;
-}
+
 
 .VIDEO-CONTAINER
 {
@@ -811,5 +781,28 @@ nav a::before
 .current
 {
   font-weight: bold;
+}
+
+@media screen and (max-width: 600px)
+{
+
+
+  .homeimage
+  {
+    display: flex;
+
+
+
+    image-rendering: auto;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    padding-top: 300px;
+
+    padding-bottom: 300px;
+
+    background-color: black;
+    border-left: dotted black 1px;
+    border-right: dotted black 1px;
+  }
 
 }
