@@ -800,22 +800,23 @@ nav a::before
 
   .homeImagesContainer
   {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 50%;
   }
   
   
-  nav ul li
+    nav ul li
   {
     font-family: 'halyard-micro', sans-serif;
     font-style: normal;
     font-weight: 300;
     padding-top: 0;
-    display: flex;
+    display: block;
+    text-align: center;
     list-style: none;
-    margin-right: 2%;
+    margin-left: 2%;
 
   }
 
