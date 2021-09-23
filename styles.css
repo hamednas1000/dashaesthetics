@@ -787,6 +787,15 @@ nav a::before
 
   @media screen and (max-width: 600px)
 {
+  
+  
+  .menuItem
+  {
+    
+    margin:auto 1%
+    
+    
+  }
 
 
   .homeimage
