@@ -788,6 +788,20 @@ nav a::before
   @media screen and (max-width: 600px)
 {
   
+    nav ul li
+  {
+    font-family: 'halyard-micro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 0;
+    display: block;
+    text-align: center;
+    list-style: none;
+    
+
+  }
+  
+  
   
   .menuItem
   {
@@ -831,18 +845,31 @@ nav a::before
   }
   
   
-    nav ul li
-  {
-    font-family: 'halyard-micro', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    padding-top: 0;
-    display: block;
-    text-align: center;
-    list-style: none;
-    
+  
+.VIDEO-CONTAINER
+{
+  width: 100%;
+  height: 50%;
+}
 
-  }
+
+.fivioXXL
+{
+  object-fit: cover;
+  border: solid black 5px;
+}
+
+
+
+
+
+.JIPRINCEMOVIE
+{
+  object-fit: cover;
+  border: solid black 5px;
+}
+  
+  
   
   
   .aboutimage
