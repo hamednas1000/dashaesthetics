@@ -553,25 +553,33 @@ span
 .SMOOVELMOVIE
 {
   border: 5px solid black;
+  object-fit: cover;
 }
 
 .SMOOVELMOVIE2
 {
   border: 5px solid black;
+  object-fit: cover;
 }
 .YOUNGMAMOVIE
 {
   border: 5px solid black;
+  object-fit: cover;
 }
 
 .JIPRINCEMOVIE
 {
   border: 5px solid black;
+  object-fit: cover;
+  
 }
+
+
 
 .MESSIAHMOVIE
 {
   border: 5px solid black;
+  object-fit: cover;
 }
 
 
@@ -597,10 +605,7 @@ span
 
 }
 
-.MESSIAHMOVIE
-{
-  object-fit: fill;
-}
+
 
 
 
