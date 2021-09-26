@@ -857,6 +857,12 @@ nav a::before
   
   
   
+  .WorkMenu
+  {
+    width: 100%;
+  }
+  
+  
     .workphoto
   {
     width: 100%;
