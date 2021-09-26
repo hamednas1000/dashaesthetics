@@ -857,6 +857,41 @@ nav a::before
   
   
   
+    .workphoto
+  {
+    width: 30%;
+    
+  }
+
+  .videophoto
+  {
+    width: 30%;
+  }
+
+  .btsPhoto
+  {
+    width: 30%;
+    
+  }
+
+
+  .workSpan
+  {
+    
+  }
+
+  .videoSpan
+  {
+    
+  }
+
+  .btsSpan
+  {
+    
+  }
+  
+  
+  
 .VIDEO-CONTAINER
 {
   width: 100%;
