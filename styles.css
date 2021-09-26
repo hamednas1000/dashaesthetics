@@ -868,6 +868,7 @@ nav a::before
 {
   object-fit: cover;
   border: solid black 5px;
+  width: 200px;
 }
 
 
@@ -878,6 +879,7 @@ nav a::before
 {
   object-fit: cover;
   border: solid black 5px;
+  width: 200px;
 }
   
   
