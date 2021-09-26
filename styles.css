@@ -859,18 +859,21 @@ nav a::before
   
     .workphoto
   {
-    width: 30%;
+    width: 100%;
+    height: 200px;
     
   }
 
   .videophoto
   {
-    width: 30%;
+    width: 100%;
+    height: 200px
   }
 
   .btsPhoto
   {
-    width: 30%;
+    width: 100%;
+    height: 200px;
     
   }
 
