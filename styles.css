@@ -935,7 +935,8 @@ nav a::before
     display: flex;
     justify-content: center;
     border: solid black 5px;
-    width: 300px;
+    width: 70%;
+    height: 100%;
     
 
   }
