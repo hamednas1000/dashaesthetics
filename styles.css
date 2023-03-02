@@ -1,0 +1,638 @@
+/* this is where we import our fonts */
+
+@font-face {
+  font-family: ScriptFont;
+  src: url('Fonts/alpha_danthe/AlphaDan.otf');
+
+}
+
+
+
+body {
+  background-color: black;
+  margin: 0;
+  overflow: auto;
+  width: 100%;
+  
+  
+   
+}
+
+
+
+/*totalHeadContainer puts the nav bar right under the title and in the DashAesthetics HeadContainer */
+
+header
+{
+
+
+}
+
+
+/* headerContainer is the div of the homeheader that says Dash Aesthetics on Top of Screen  FOR INDEX.HTML*/
+
+.HomeHeaderContainer {
+ 
+
+ 
+  width: 100%;
+  height: auto;
+  top: 0;
+  display: flex;
+  position: fixed;
+  
+
+  
+  
+
+  
+   
+}
+
+/* actual string of Dash Aesthetics. This is where you make changes to font charcteristics:  FOR INDEX.HTML */
+
+.HomeHeader {
+  font-family: ScriptFont;
+  font-size: 5rem;
+  color: white;
+  
+  background-color: black;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  margin-top: 2%;
+  
+  
+  
+}
+
+
+/* unordered list: css properties */
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: blue;
+ 
+  padding: 0;
+  margin-top: 12%;
+  display: flex;
+  
+ 
+  
+
+ 
+ 
+  
+}
+
+
+nav ul {
+  width: 100%;
+  height: 100%;
+  margin: 0 ;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  
+}
+
+nav ul li {
+
+  
+  float: left;
+  margin-left: 15%;
+  background-color: black;
+  font-size: 2rem;
+  
+  
+  
+
+}
+
+
+
+
+
+/* link references and their css rules */
+
+a {
+  
+  transition: 0.35s;
+  font-size: 0.7em;
+  justify-content: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+
+
+  color: gold;
+
+}
+
+a:active {
+  text-decoration: none;
+
+}
+
+
+.menuItem {
+  font-family: ScriptFont;
+  font-size: 2rem;
+  color: white;
+
+}
+
+/* css rules for unordered list - MENU */
+.ContentContainer {
+  display: flex;
+    position:relative;
+  background-color: black;
+  width: 200%;
+  
+  margin: 0 ; 
+ 
+margin-top: 9.3%;
+
+transform: translate3d(0,0,0);
+  
+  
+  
+  
+  
+}
+
+
+
+
+/* sliding image carosel on home page and its css properties */
+.figure img {
+  background-size: cover;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: white;
+  image-rendering: crisp-edges;
+  height: 1em;
+}
+
+
+.PortfolioContainer 
+{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  margin-top: 5%;
+  display: flex;
+}
+
+
+.left {
+  float: left;
+}
+
+
+.right {
+  float: right;
+}
+
+
+.PortfolioContainer>div {
+  margin-top: 8%;
+  margin-left: 3%;
+  margin-right: 3%;
+
+  width: 20%;
+}
+
+.workPhotoMenu {
+  position: relative;
+  object-fit: cover;
+  image-resolution: crisp-edges;
+  width: 100%;
+  height: 30%;
+  opacity: 0.2;
+  transition: .5s ease;
+  background-color: rgba(192, 192, 192, 0.3);
+}
+
+
+.workPhotoMenu:hover {
+  opacity: 1;
+  transition: .5s ease-in;
+  background-color: rgba(200, 0, 0, 0.5);
+  image-resolution: crisp-edges;
+
+  border: solid gold 2px;
+}
+
+
+
+
+.portfolioName {
+
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+.GalleryContainer {
+
+
+width: 100%;
+height: 100%;
+margin-top: 5%;
+justify-content: center;
+align-items: center;
+display:grid;
+position: relative;
+background-color: black;
+
+}
+
+
+.photoGridContainer {
+  
+
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.photoGridItem {
+  background-color: black;
+}
+
+
+
+.photoGridItem .photoGrid-Image .img {
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+.photoGrid .photoGridRowA:hover {
+  transform: scale(1.4);
+  transition: ease-in-out .5s;
+}
+
+
+.VideoGalleryContainer {
+
+
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  display:grid;
+  position: relative;
+  background-color: black;
+  
+  }
+
+
+.VideoGridContainer
+{
+  width: 100%;
+height: 100%;
+margin-top: 5%;
+justify-content: center;
+align-items: center;
+display:grid;
+position: relative;
+background-color: black;
+}
+
+.videoGridItem
+{
+  background-color: black;
+
+}
+
+
+
+.videoGridItem .videoGrid-vid .video {
+  object-fit:fill;
+  cursor: pointer;
+}
+
+
+
+
+
+
+input[type=text], select, textarea {
+
+
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  box-sizing: border-box;
+
+
+
+
+}
+
+input[type=submit] {
+  background-color: #5DADE2;
+  color: white;
+
+  border: none;
+  border-radius: 4px;
+
+}
+
+.contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+label{
+    display: block;
+    margin: 4%;
+    padding: 10%;
+
+
+}
+
+.email
+{
+  width: 100%;
+
+}
+
+.subject
+{
+  min-width: 100%;
+
+}
+
+.message
+{
+  width: 100%;
+}
+
+
+
+button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    width:100%;
+    height:auto;
+    color: white;
+    padding: 2% 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7vw;
+    cursor: pointer;
+}
+
+button:hover
+{
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+}
+
+.formContainer
+{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactFooter
+{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 2%;
+
+}
+
+.rightsReserved
+{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.Hero
+{
+  height: 100vh;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  
+ 
+  
+
+  margin-top: 7%;
+  
+}
+
+form
+{
+  background-color: black;
+  font-size:2vw ;
+  width: 100%;
+  height: 100vh;
+
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+  
+ 
+  
+
+
+}
+
+.message-Icon
+{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  margin-bottom: 2%;
+  
+
+}
+
+.message-Icon span
+{
+  margin-left: 43.0%;
+  color: white;
+  font-size: 2rem;
+
+}
+
+.message-Icon i
+{
+
+}
+
+form input,textarea
+{
+  width: 50%;
+  height: 6vh;
+  border-top: none;
+  border-bottom: 2% solid black;
+  border-left: none;
+  border-right: none;
+  margin-left: 25%;
+ 
+  
+}
+
+#input-field
+{
+  display: flex;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+.send-btn
+{
+  border: none;
+  background:black;
+  color:white;
+  font-size: large;
+
+}
+
+
+section
+{
+  margin-top: 8%;
+  
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+ 
+}
+
+section p
+{
+  color: white;
+text-align: center;
+background-color: black;
+width: 100%;
+text-align: left;
+
+
+
+
+
+}
+.about
+{
+  width: 100%;
+
+  background: black;
+  
+ 
+  
+}
+
+.about img
+{
+  
+  width: 30%;
+  margin-right: 5%;
+  
+    
+  
+}
+
+.about-text
+{
+  width:100%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.main
+{
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+.about-text h1
+{
+ font-size: 2.0rem;
+ color: white;
+ background-color:black ;
+}
+
+
+.about-text h5
+{
+ font-size: 1.3rem;
+ color:white;
+ background-color: black;
+ font-style: italic;
+ font-weight: 200;
+ 
+ 
+}
+
+span{
+  text-align: center;
+
+}
+
+.about-text p
+{
+  letter-spacing: 1px;
+
+  font-weight: 700;
+
+}
+
+
+
